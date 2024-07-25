@@ -124,7 +124,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -194,7 +194,7 @@ input, select, textarea {
 			font-weight: 700;
 			letter-spacing: 0.1em;
 			margin: 0 0 2em 0;
-			text-transform: uppercase;
+			text-transform: lowercase;
 		}
 
 			a.special:not(.button):before {
@@ -256,7 +256,7 @@ input, select, textarea {
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		text-transform: lowercase;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2172,7 +2172,7 @@ input, select, textarea {
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 0.7em 0;
-		text-transform: uppercase;
+		text-transform: lowercase;
 	}
 
 	input[type="text"],
@@ -2879,7 +2879,7 @@ input, select, textarea {
 		padding: 0 2.25em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		white-space: nowrap;
 	}
 
@@ -3112,7 +3112,7 @@ input, select, textarea {
 			line-height: 3em;
 			position: absolute;
 			right: 0.7em;
-			text-transform: uppercase;
+			text-transform: lowercase;
 			top: 0.7em;
 		}
 
@@ -3281,7 +3281,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #d6a97e;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3333,7 +3333,7 @@ input, select, textarea {
 					letter-spacing: 0.1em;
 					line-height: 1.85em;
 					padding: 0.75em 0;
-					text-transform: uppercase;
+					text-transform: lowercase;
 				}
 
 					#menu .links li a:hover {
@@ -3458,7 +3458,7 @@ input, select, textarea {
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
+			text-transform: lowercase;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3570,14 +3570,14 @@ input, select, textarea {
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
+			text-transform: lowercase;
 		}
 
 	@media screen and (max-width: 1280px) {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #000000;
+			background-color: #d6a97e;
 			background-image: linear-gradient(to top, rgba(33, 177, 153, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto,
  cover;
@@ -3719,7 +3719,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style4 {
-			background-color: #454858;
+			background-color: #d6a97e;
 		}
 
 			.wrapper.style4:before, .wrapper.style4:after {
@@ -3735,7 +3735,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style5 {
-			background-color: #4d5060;
+			background-color: #d6a97e;
 		}
 
 			.wrapper.style5:before, .wrapper.style5:after {
@@ -3751,7 +3751,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style6 {
-			background-color: #555867;
+			background-color: #d6a97e;
 		}
 
 			.wrapper.style6:before, .wrapper.style6:after {
@@ -4070,8 +4070,8 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: #d6a97e;
+			background-image: linear-gradient(to top, #d6a97e, #d6a97e), url("../../images/bg.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
