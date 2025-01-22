@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Aaron Lin
+EMAIL: shihsyul@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Aaron Lin">
+  <meta name="description" content="This website is Aaron Lin's Website Portfolio. Built using Node, Bootstrap, and HTML/CSS.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- you would link to an external stylesheet here! -->
+   <!-- you would also link to Bootstrap here! -->
+  <link rel="stylesheet" href="main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <script src="bootstrap.bundle.min.js"></script>
+
+  <title>welcome to my portfolio!</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="../src/favicon.ico">
+</head>
+<body>
+
+  <!-- nav -->
+  <section id="nav-bar">
+    <h1 class="visually-hidden">Navigation Bar</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#top">aaron lin</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/document/d/1mUp40eAYZTU7TvihW5ntX9cMoCu5Ajbiqz1smCu4R6A/edit?usp=drive_link" target="_blank">resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- home/intro page -->
+  <section id="home" class="text-center py-4 bg-light">
+    <div class="container py-2">
+      <div class="row d-flex align-items-center">
+        <!-- img -->
+        <div class="col-md-5 mb-4">
+          <img src="../src/aaronlinpfp.jpg" alt="Aaron Lin Home Profile Image" class="img-fluid rounded-circle profile-img">
+        </div>
+        <!-- small intro -->
+        <div class="col-md-7 mb-4">
+          <h1 class="display-4">hi! it's nice to see you here! :)</h1>
+          <p></p>
+          <p class="lead" style="width: 75%; margin: 0 auto;">my name is aaron, and i'm a junior-standing second-year at UCI majoring in informatics & human-computer interaction and minoring in psychology! please take a look around!</p>
+          <p></p>
+          <a href="#about" class="btn btn-primary">learn more about me!</a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <!-- section headers -->
+      <div class="container p-4 text-center">
+        <h3 class="display-4 fw-semibold">my projects</h3>
+        <h2 class="text-center text-muted mb-4">here's what i've been working on!</h2>
+      </div>
+      <!-- projects showcase -->
+      <!-- 1x1 grid layout for small screens, 2x2 layout for small> screens -->
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col-md-6">
+          <!-- busibee card -->
+          <div class="card mb-4 h-100 position-relative">
+            <!-- thumbnail -->
+            <a href="https://docs.google.com/presentation/d/1l-EFKe9SNnJ3AXcEGuoqC6do6_WDWExAtZKd_34AMI0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <img src="../src/BusiBee_Case_Study.jpg" class="card-img-top" alt="BusiBee Thumbnail">
+            </a>
+            <!-- title/description -->
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title">BusiBee (Project Teams 3rd Place)</h3>
+              <p class ="card-text">I worked on BusiBee as a UI/UX Designer and Researcher during my Fall 2024 Quarter in Design @ UCI's Project Teams Program. I used this time to sharpen my skills in wireframing, prototyping, and UX research methods.</p>
+              <p class="card-text">BusiBee is a mobile app to provide a platform where small businesses can find and build a supportive community of users.</p>
+              
+              <!-- skills badges -->
+              <div class="skills mb-3 d-flex flex-wrap gap-2">
+                <span class="badge figma bg-secondary">figma</span>
+                <span class="badge ux bg-secondary">user surveys</span>
+                <span class="badge interviewprotocols bg-secondary">interview protocols</span>
+                <span class="badge wireframing bg-secondary">wireframing</span>
+                <span class="badge prototyping bg-secondary">prototyping</span>
+              </div>
+              
+              <!-- buttons -->
+              <div class="mt-auto">
+                <a href="https://docs.google.com/presentation/d/1l-EFKe9SNnJ3AXcEGuoqC6do6_WDWExAtZKd_34AMI0/edit?usp=sharing" class="btn btn-primary" target="_blank" rel="noopener noreferrer">see the case study!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <!-- zotconnect card -->
+          <div class="card mb-4 h-100 position-relative">
+            <!-- thumbnail -->
+            <a href="https://zotconnect.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <img src="../src/zotconnect.jpeg" class="card-img-top" alt="ZotConnect Thumbnail">
+            </a>
+            <!-- title/description -->
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title">ZotConnect (IrvineHacks 2024 Best Overall)</h3>
+              <p class="card-text">ZotConnect was a project that I developed in a team of 4 during IrvineHacks 2024. I learned how to wireframe for the first time there, as well as write code against the clock. This was one of my first steps towards my career.</p>
+              <p class="card-text">ZotConnect is a web application crafted to establish straightforward communication between professors and students.</p>
+              <!-- skills badges -->
+              <div class="skills mb-3 d-flex flex-wrap gap-2">
+                <span class="badge figma bg-secondary">figma</span>
+                <span id="ts" class="badge bg-secondary">typescript</span>
+                <span id="tw" class="badge bg-secondary">tailwind</span>
+                <span id="react" class="badge bg-secondary">react</span>
+                <span id="next" class="badge bg-secondary">next</span>
+              </div>
+              <!-- buttons -->
+              <div class="mt-auto">
+                <a href="https://zotconnect.vercel.app/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">check out zotconnect!</a>
+                <a href="https://github.com/abhi-arya1/zotconnect" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6">
+          <!-- web portfolio card -->
+          <div class="card mb-4 h-100 position-relative">
+            <!-- thumbnail -->
+            <a href="#">
+              <img src="../src/aaronlinportfoliopreview.png" class="card-img-top" alt="Web Portfolio Thumbnail">
+            </a>
+            <!-- title/description -->
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title">Web Portfolio</h3>
+              <p class="card-text">I made this website portfolio to showcase my personal projects that I'm the most proud of! This also served as a learning experience for front end development and UI/UX design. I learned the basics of HTML, CSS styling, and Bootstrap styling and layouts. This was my very first web portfolio that I coded, and I'm proud to say that it is mostly done in front-end.</p>
+              <!-- skills badges -->
+              <div class="skills mb-3 d-flex flex-wrap gap-2">
+                <span id="html" class="badge bg-secondary">html</span>
+                <span id="css" class="badge bg-secondary">css</span>
+                <span id="bootstrap" class="badge bg-secondary">bootstrap</span>
+              </div>
+              <!-- buttons -->
+              <div class="mt-auto">
+                <a href="https://github.com/uci-inf-133/a1-portfolio-aaronlin592" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">github repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <!-- spotify redesign card (coming soon) -->
+          <div class="card mb-4 h-100 position-relative">
+            <!-- thumbnail (preview [UPDATE LATER]) -->
+            <img src="../src/figma.jpg" class="card-img-top" alt="Spotify Redesign Figma Thumbnail">
+            <!-- title/description [UPDATE LATER] -->
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title">Redesigning Spotify (Coming Soon!)</h3>
+              <p class="card-text">This is a personal project that I'm currently working on for my Winter 2025 Quarter! I didn't like Spotify's design choices and my peers agreed with me, so I took it upon myself to improve it. I'm conducting user research using surveys and interviews, and doing my redesign work in Figma. Stay tuned!</p>
+              <!-- skills badges -->
+              <div class="skills mb-3 d-flex flex-wrap gap-2">
+                <span class="badge figma bg-secondary">figma</span>
+                <span class="badge ux bg-secondary">user surveys</span>
+                <span class="badge interviewprotocols bg-secondary">interview protocols</span>
+                <span class="badge wireframing bg-secondary">wireframing</span>
+                <span class="badge prototyping bg-secondary">prototyping</span>
+              </div>
+              <!-- buttons [UPDATE LATER] -->
+              <div class="mt-auto">
+                <a class="btn btn-primary">case study coming soon!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section id="about" class="py-5 bg-white">
+    <div class="container">
+      <!-- header -->
+      <h3 class="display-4 fw-semibold text-center mb-4">about me!</h3>
+      <!-- grid layout -->
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <!-- 2x2 grid layout in small> screens, 4x1 in smaller screens -->
+          <div class="row row-cols-1 g-4">
+            <!-- aaron and honey card -->
+            <div class="col-md-6">
+              <div class="image-container position-relative">
+                <img src="../src/aaronlindogphoto.jpg" alt="Aaron Lin Picture with Dog" class="img-fluid">
+                <div class="caption">
+                  me with my dog, honey!
+                </div>
+              </div>
+            </div>
+            <!-- cafe/blind box card -->
+            <div class="col-md-6">
+              <div class="image-container position-relative">
+                <img src="../src/cafewnyota.jpg" alt="A picture that I took of when I was studying at a cafe with a Nyota." class="img-fluid">
+                <div class="caption">
+                  i like to collect blind box figures and go to cafes
+                </div>
+              </div>
+            </div>
+            <!-- fav picture card -->
+            <div class="col-md-6">
+              <div class="image-container position-relative">
+                <img src="../src/whiterosesonthebeach.jpg" alt="A picture that I took of white roses that I found on the sand at Laguna Beach." class="img-fluid">
+                <div class="caption">
+                  my favorite picture that i took on my digital camera
+                </div>
+              </div>
+            </div>
+            <!-- camera card -->
+            <div class="col-md-6">
+              <div class="image-container position-relative">
+                <img src="../src/aaronwcamera.jpg" alt="Me with my digital camera in Hawaii." class="img-fluid">
+                <div class="caption">
+                  me with my camera in a botanical garden
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- background/interests/connect -->
+        <div class="col-md-6">
+          <div class="align-items-stretch text-center">
+            <h2 class="border-bottom border-2" style="padding-bottom: 5px; width: 100%;">my background and interests</h2>
+            <p class="lead">hi! nice to see you again! once again, my name is aaron lin, and i am a junior-standing second-year at the university of california, irvine. i was born in taoyuan, taiwan, and i moved to the u.s. when i was 5. i am currently studying informatics and human-computer interaction as well as studying psychology on the side. my career aspirations are to be a ui/ux designer and researcher, which i am currently on the right path towards.</p>
+            <p class="lead">technology-wise, i love to make silly prototypes in figma, and create the most bizarre designs my mind can come up with. hobbies-wise, i love to play my bass guitar, take candid pictures, collect blind boxes, and play tennis!</p>
+            <p class="lead">if you want to have a chat, feel free to email me at aaronlin2023@gmail.com or connect with me on <a href="https://www.linkedin.com/in/aaronlin592/" class="link-primary" target="_blank" rel="noopener noreferrer">linkedin</a>!</p>
+            <a href="#contact" class="btn btn-primary ms-auto">connect with me!</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">connect with me! (pls)</h2>
+      <div class="d-flex justify-content-center align-items-center gap-4">
+        <!-- linkedin -->
+        <a href="https://www.linkedin.com/in/aaronlin592/" target="_blank" rel="noopener noreferrer">
+          <h1 class="visually-hidden">LinkedIn Icon</h1>
+          <div>
+            <i class="fab fa-linkedin fa-4x"></i>
+          </div>
+        </a>
+    
+        <!-- email -->
+        <a href="mailto:shihsyul@uci.edu">
+          <h1 class="visually-hidden">Email Icon</h1>
+          <div>
+            <i class="fas fa-envelope fa-4x"></i>
+          </div>
+        </a>
+    
+        <!-- github -->
+        <a href="https://github.com/aaronlin592" target="_blank" rel="noopener noreferrer">
+          <h1 class="visually-hidden">Github Icon</h1>
+          <div>
+            <i class="fab fa-github fa-4x"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>  
+
+  <!-- footer -->
+  <footer class="text-center py-3 bg-dark text-light">
+    <p>© 2025 Aaron Lin. All Rights Reserved.</p>
+  </footer>
+
+  <p>
+    <a href="http://validator.w3.org/check?uri=referer">
+       W3C validator
+    </a>
+  </p>
+</body>
+</html>

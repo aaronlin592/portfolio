@@ -1,0 +1,218 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+// My custom CSS code that gets imported to main.css via Live Sass Compiler
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-color: transparent;
+    opacity: 0.75;
+    padding: 10px !important;
+    transition: background-image 2s ease-in-out, opacity 1s;
+}
+.navbar:hover {
+    background-image: linear-gradient(to right, #8FAD88, #A8B5A3);
+    opacity: 1;
+    transition: background-image 2s ease-in-out, opacity 1s;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+    opacity: 1;
+}
+
+.navbar-nav li a{
+    color: #010101;
+    font-weight: 600;
+    font-size: xx-large;
+    opacity: 1;
+}
+.navbar-nav li a:hover{
+    color: #F5F5DC;
+    opacity: 1;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: 600;
+    font-stretch: semi-expanded;
+    color: #010101;
+    padding: 0 10px;
+    opacity: 1;
+}
+.navbar-brand:hover{
+    color: #F5F5DC;
+}
+
+.btn-primary{
+    background-color: #A8B5A3;
+    border-color: #A8B5A3;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: #36454F;
+    --bs-btn-active-color: #36454F;
+}
+.btn-primary:hover{
+    color: #36454F;
+    background-color: transparent;
+    border-color: #A8B5A3;
+}
+
+.btn-secondary:hover {
+    color: #36454F;
+    background-color: transparent;
+    border-color: var(--bs-btn-bg);
+}
+.card{
+    border-color: transparent;
+}
+.card-title {
+    font-size: xx-large;
+}
+.h2{
+    font-size: xx-large;
+}
+.img-fluid.rounded-circle {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-img {
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 24ch;
+    border-right: solid black;
+    animation: animtext 2s steps(80, end), blink 0.8s step-end infinite; 
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 1s ease-in-out;
+ } 
+ to {
+    width: 24ch;
+ }
+}
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.image-container:hover .caption {
+    opacity: 1;
+    transform: translateY(0);
+}
+.card-img-top {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+  
+.card-img-top:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.figma.bg-secondary{
+    background-color: #ff7262 !important;
+}
+.ux.bg-secondary{
+    background-color: #a259ff !important;
+}
+.interviewprotocols.bg-secondary{
+    background-color: #1abcfe !important;
+}
+.wireframing.bg-secondary{
+    background-color: #0acf83 !important;
+}
+.prototyping.bg-secondary{
+    background-color: #f24e1e !important;
+}
+#ts.bg-secondary{
+    background-color: #3178C6 !important;
+}
+#tw.bg-secondary{
+    background-color: #06b6d4 !important;
+}
+#react.bg-secondary{
+    background-color: #61DBFB !important;
+}
+#next.bg-secondary{
+    background-color: #171717 !important;
+}
+#html.bg-secondary{
+    background-color: #e34c26 !important;
+}
+#css.bg-secondary{
+    background-color: #264de4 !important;
+}
+#bootstrap.bg-secondary{
+    background-color: #563d7c !important;
+}
+
+.badge {
+    font-weight: 300;
+    font-size: medium;
+}
+
+#contact a {
+    color: #8FAD88;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+#contact a:hover {
+    color: #A8B5A3;
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+#contact i {
+    margin: 0 15px; /* Spacing between icons */
+}
