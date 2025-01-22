@@ -11977,6 +11977,7 @@ body {
 
 .navbar {
   background-color: transparent;
+  opacity: 0.85;
   padding: 10px !important;
   transition: background-image 3s ease-out, opacity 2s;
 }
