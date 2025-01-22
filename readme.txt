@@ -22,16 +22,27 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-Scrolling, navigation bar (all nav items work/lead to somewhere), buttons work/lead to somewhere
+Multiple images, with descriptive alt attributes
+Appropriate headings and paragraph text
+Links to external pages
+Multiple sections, with appropriate navigation between them
+HTML Footer Tag
+Custom icons from Font Awesome
+Scrolling
+Navigation bar (all nav items work/lead to somewhere)
+Buttons work/lead to somewhere
 
 
 (b) CSS features
+Modifying padding and margins to indent content and enhance readability
+Modifying link, text color, or other colors to be visually appealing, via my own color pallette
+Bootstrap Usage Guidance
 Readable text
-Correct color contrast
+Color Scheme that is easy-on-eyes
 Custom classes
 Bootstrap SCSS/SASS/CSS
 main.scss file -> live sass compiler -> imported to main.css (bootstrap provided)
-Custom Badges, Text, Animations, Nav Bar, Buttons, and Caption Card Photos
+Custom Badges, Fonts, Text, Animations, Nav Bar, Buttons, and Caption Card Photos
 
 
 (c) Advanced features
