@@ -81,4 +81,4 @@ I did not consult any individuals as part of this assignment. I did use my frien
 
 
 6. Is there anything special we need to know in order to run your code?
-Everything is done in the index.html page. I do have a main.scss file that I used to import custom CSS code into the bootstrap provided (main.css) css stylesheet. I used a live SASS compiler to make this happen. To run my portfolio, just open up the index.html file in the src folder. That's it!
+Everything is done in the index.html page. I do have a main.scss file that I used to import custom CSS code into the bootstrap provided (main.css) css stylesheet. I used a live SASS compiler to make this happen. To run my portfolio, just open up the index.html file in the src folder. That's it! And the validation check screenshots are in the src/validation_checks folder.
