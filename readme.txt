@@ -73,16 +73,12 @@ PopperJS/Floating UI Documentation: https://floating-ui.com/?utm_source=popper.j
 
 HTML/CSS Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML | https://developer.mozilla.org/en-US/docs/Web/CSS
 
-LinkedIn Connection/Friend's Portfolio Examples: thechriscrib.com | abhi-arya1.github.io | rishisrihari.vercel.app | 
-https://jessicajahja.com/
+LinkedIn Connection/Friend's Portfolio Examples: https://thechriscrib.com | https://abhi-arya1.github.io | https://rishisrihari.vercel.app | https://jessicajahja.com/
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-I did not consult any individuals as part of this assignment. I did use my friends portfolio examples as inspiration. 
-Their names are Chris Li, Abhi Arya, and Rishi Srihari.
+I did not consult any individuals as part of this assignment. I did use my friends portfolio examples as inspiration. Their names are Chris Li, Abhi Arya, and Rishi Srihari.
 
 
 6. Is there anything special we need to know in order to run your code?
-Everything is done in the index.html page. I do have a main.scss file that I used to import custom CSS code into the bootstrap provided 
-(main.css) css stylesheet. I used a live SASS compiler to make this happen. To run my portfolio, just open up the index.html file 
-in the src folder. That's it!
+Everything is done in the index.html page. I do have a main.scss file that I used to import custom CSS code into the bootstrap provided (main.css) css stylesheet. I used a live SASS compiler to make this happen. To run my portfolio, just open up the index.html file in the src folder. That's it!
