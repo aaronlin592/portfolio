@@ -11977,15 +11977,14 @@ body {
 
 .navbar {
   background-color: transparent;
-  opacity: 0.75;
   padding: 10px !important;
-  transition: background-image 2s ease-in-out, opacity 1s;
+  transition: background-image 3s ease-out, opacity 2s;
 }
 
 .navbar:hover {
   background-image: linear-gradient(to right, #8FAD88, #A8B5A3);
   opacity: 1;
-  transition: background-image 2s ease-in-out, opacity 1s;
+  transition: background-image 5s ease-in, opacity 2s;
 }
 
 .navbar-nav li {

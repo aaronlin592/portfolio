@@ -10,6 +10,8 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+// nav bar
 #nav-bar{
     position: sticky;
     top: 0;
@@ -18,14 +20,13 @@ body {
 
 .navbar{
     background-color: transparent;
-    opacity: 0.75;
     padding: 10px !important;
-    transition: background-image 2s ease-in-out, opacity 1s;
+    transition: background-image 3s ease-out, opacity 2s;
 }
 .navbar:hover {
     background-image: linear-gradient(to right, #8FAD88, #A8B5A3);
     opacity: 1;
-    transition: background-image 2s ease-in-out, opacity 1s;
+    transition: background-image 5s ease-in, opacity 2s;
 }
 
 .navbar-nav li{
@@ -56,6 +57,7 @@ body {
     color: #F5F5DC;
 }
 
+// buttons
 .btn-primary{
     background-color: #A8B5A3;
     border-color: #A8B5A3;
@@ -75,6 +77,8 @@ body {
     background-color: transparent;
     border-color: var(--bs-btn-bg);
 }
+
+// cards
 .card{
     border-color: transparent;
 }
@@ -94,6 +98,7 @@ body {
     box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
 }
 
+// text typing animation
 h1 {
     display: inline-block;
     margin: 10px 0 0 10px;
