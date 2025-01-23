@@ -53,10 +53,11 @@ Images (Projects): Hover effect-Images are also links to the project's source, a
 Images (About): Hover effect-Images reveal a caption when cursor hovers over image, disappears when cursor-off.
 Connect With Me: Icons also grow in size and changes color to indicate that the user is hovering over the icon. 
 Icons also lead to respective platform (e.g. linkedin icon goes to my linkedin).
+Published to github.io!!
 
 
 3. How long, in hours, did it take you to complete this assignment?
-~16-20 hours
+~18-22 hours
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
@@ -81,4 +82,4 @@ I did not consult any individuals as part of this assignment. I did use my frien
 
 
 6. Is there anything special we need to know in order to run your code?
-Everything is done in the index.html page. I do have a main.scss file that I used to import custom CSS code into the bootstrap provided (main.css) css stylesheet. I used a live SASS compiler to make this happen. To run my portfolio, just open up the index.html file in the src folder. That's it! And the validation check screenshots are in the src/validation_checks folder.
+Everything is done in the index.html page. I do have a main.scss file that I used to import custom CSS code into the bootstrap provided (main.css) css stylesheet. I used a live SASS compiler to make this happen. To run my portfolio, just open up the index.html file in the root folder. That's it! And the validation check screenshots are in the src/validation_checks folder. Or you can just access it at https://uci-inf-133.github.io/a1-portfolio-aaronlin592/!
