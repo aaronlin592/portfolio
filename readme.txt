@@ -10,21 +10,21 @@ Live Site: https://aaronlin592.github.io/portfolio/
 
 ====================================
 
-## Description
+-- DESCRIPTION --
 This is the personal portfolio website of Aaron Lin, designed to showcase his projects, background, and interests. The website is built using HTML, CSS, Bootstrap, and JavaScript, and it highlights his UI/UX design skills, coding experience, and creative projects.
 
 ====================================
 
-## Tech Stack
-- **HTML5** - Website Structure
-- **CSS3** - Styling
-- **Bootstrap** - Responsiveness and UI elements
-- **JavaScript** - Interactivity
-- **Font Awesome** - Icon library for social media and contact links
+-- TECH STACK --
+- HTML5 (Website Structure)
+- CSS3 (Styling)
+- Bootstrap (Responsiveness and UI elements)
+- JavaScript (Interactivity)
+- Font Awesome (Icon library for social media and contact links)
 
 ====================================
 
-## Contact
+-- CONTACT --
 For any inquiries, please reach out via:
 - Email: aaronlin2023@gmail | shihsyul@uci.edu
 - LinkedIn: https://www.linkedin.com/in/aaronlin592/
