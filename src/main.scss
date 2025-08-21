@@ -22,12 +22,12 @@ body {
     background-color: transparent;
     opacity: .85;
     padding: 10px !important;
-    transition: background-image 3s ease-out, opacity 2s;
+    transition: background-image 1s ease-out, opacity 1s;
 }
 .navbar:hover {
     background-image: linear-gradient(to right, #8FAD88, #A8B5A3);
     opacity: 1;
-    transition: background-image 5s ease-in, opacity 2s;
+    transition: background-image 2s ease-in, opacity 2s;
 }
 
 .navbar-nav li{
@@ -224,4 +224,30 @@ h1 {
 
 #contact i {
     margin: 0 15px; /* Spacing between icons */
+}
+
+// rotating text animation
+.rotating-text {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.rotating-text span {
+  display: inline-block;
+  opacity: 0;
+  animation: rotateWords 9s ease-in-out infinite;
+}
+
+.rotating-text span:nth-child(1) { animation-delay: 0s; }
+.rotating-text span:nth-child(2) { animation-delay: 3s; }
+.rotating-text span:nth-child(3) { animation-delay: 6s; }
+
+@keyframes rotateWords {
+  0%   { opacity: 0.5; }
+  10%  { opacity: 1; }
+  30%  { opacity: 1; }
+  40%  { opacity: 0.15; }
+  100% { opacity: 0.25; }
 }
